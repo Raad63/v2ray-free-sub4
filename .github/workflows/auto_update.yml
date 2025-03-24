@@ -69,7 +69,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Checkout'
-        uses: actions/checkout@v1
+        uses: actions/checkout@v4
       - name: 'Mirror to gitee'
         uses: mfuu/repository-mirroring-action@v1
         with:
@@ -81,7 +81,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Checkout'
-        uses: actions/checkout@v1
+        uses: actions/checkout@v4
       - name: 'Mirror to gitlab'
         uses: mfuu/repository-mirroring-action@v1
         with:
